@@ -1,0 +1,35 @@
+{
+  "name": "advance_mern_stack_authentication",
+  "version": "1.0.0",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityaamalik/Advance_MERN_Stack_Authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityaamalik/Advance_MERN_Stack_Authentication/issues"
+  },
+  "homepage": "https://github.com/adityaamalik/Advance_MERN_Stack_Authentication#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^4.1.0",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
