@@ -84,8 +84,6 @@ export const PASSWORD_RESET_REQUEST_TEMPLATE = `
     <div style="text-align: center; margin: 30px 0;">
       <a href="{resetURL}" style="background-color: #4CAF50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Reset Password</a>
     </div>
-    <p>If the button above doesn't work, you can copy and paste the following link into your browser:</p>
-    <p>{resetURL}</p>
     <p>This link will expire in 1 hour for security reasons.</p>
     <p>Best regards,<br>Your App Team</p>
   </div>
